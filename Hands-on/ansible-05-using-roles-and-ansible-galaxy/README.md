@@ -135,7 +135,7 @@ vi tasks/main.yml
 
 - name: index.html
   ansible.builtin.copy:
-    content: "<h1>Hello Clarusway</h1>"
+    content: "<h1>Hello example</h1>"
     dest: /var/www/html/index.html
 
 - name: restart apache2
